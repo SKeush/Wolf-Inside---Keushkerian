@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+p {
+  color: #3f7ba7;
+}
+
+.header {
+  background-color: #6ec4a3;
+  height: 250px;
+}
+
+.header img,
+h1,
+h2 {
+  position: absolute;
+  padding: 20px;
+  color: #185581;
+}
+
+.header h1 {
+  margin: 170px 0px 0px 450px;
+  font-size: 40px;
+  font-style: italic;
+}
+
+.header h2 {
+  font-size: 80px;
+  margin: 45px 0px 0px 350px;
+}
+
+.header img {
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 45px 0px 0px 400px;
+}
+
+.nav a:hover {
+  text-transform: uppercase;
+  color: #8f52c2;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.sectOne {
+  display: flex;
+  justify-content: flex-start;
+  border-style: double;
+  margin: 80px 80px 0px 50px;
+  padding: 20px;
+}
+
+.sectOne img {
+  margin: 60px 0px 0px 20px;
+  width: 500px;
+  border-radius: 25%;
+}
+
+.pOne {
+  width: 1500px;
+  height: 25px;
+  position: absolute;
+  font-size: 45px;
+}
+
+.pTwo {
+  margin-top: 70px;
+  font-size: 20px;
+}
+
+.secTwo {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.secTwo h3 {
+  color: #3d6e91;
+  font-size: 30px;
+}
+
+.modAc {
+  margin: 70px 0px 0px 50px;
+  text-align: center;
+}
+
+.modAc img,
+.modDeCon img,
+.adHogar img {
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.modAc p,
+.modDeCon p,
+.adHogar p {
+  padding: 20px;
+}
+.modDeCon {
+  margin: 70px 0px 0px 50px;
+  text-align: center;
+}
+
+.modDeCon h3 {
+  margin-top: -25px;
+}
+.adHogar {
+  margin: 70px 0px 0px 50px;
+  text-align: center;
+}
+
+.eYC {
+  border: 2px black;
+  border-style: dashed;
+  margin: 80px 200px 0px 200px;
+  padding: 60px;
+}
+
+.comWolf {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 20px 0px 50px;
+  padding: 20px;
+}
+
+.comWolf p {
+  border: black solid 2px;
+  border-radius: 15%;
+  margin: 0px 200px 0px 500px;
+  padding: 40px;
+  text-align: center;
+}
+
+.comWolf img {
+  position: absolute;
+}
+
+.face {
+  margin: 0px 0px 0px 100px;
+  width: 100px;
+  height: 200px;
+}
+
+.ig {
+  margin: 15px 0px 0px 300px;
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  position: absolute;
+  margin: 100px 0px 0px 500px;
+}
+
+/*------------------------------PAGINA NOSOTROS------------------------------*/
+
+.tituloNos {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-top: 100px;
+  font-size: 70px;
+  color: #3d6e91;
+}
+
+.tituloNos h3 {
+  margin-left: 250px;
+}
+.tituloNos img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.peopleIcon {
+  margin-left: 1000px;
+}
+
+.gaby {
+  display: flex;
+  margin-top: 150px;
+}
+
+.gaby h3 {
+  margin-left: 250px;
+  font-size: 70px;
+  color: #22775e;
+  position: absolute;
+}
+
+/*el nombre de la persona lo voy a insertar luego como imagen con las dos líneas a los costados, que va a ser más sencillo que aplicar h3 + hr*/
+
+.gaby p {
+  margin: 100px 0px 0px 150px;
+}
+
+.gaby img {
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.aline {
+  display: flex;
+  margin-top: 150px;
+}
+
+.aline h3 {
+  margin-left: 800px;
+  font-size: 70px;
+  color: #22775e;
+  position: absolute;
+}
+
+.aline p {
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 80px;
+  text-align: left;
+}
+
+.aline img {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.franco {
+  display: flex;
+  margin-top: 150px;
+}
+
+.franco h3 {
+  margin-left: 250px;
+  font-size: 70px;
+  color: #22775e;
+  position: absolute;
+}
+
+.franco p {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.franco img {
+  margin-right: 150px;
+  margin-top: 50px;
+}
+
+.nuestrosJefes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.nuestrosJefes h3 {
+  font-size: 70px;
+  color: #22775e;
+  position: absolute;
+  margin-left: 400px;
+}
+
+.nuestrosJefes img {
+  margin-top: 150px;
+  margin-left: 400px;
+}
+
+.nuestrosJefes p {
+  text-align: center;
+  margin: 50px 200px 0px 200px;
+}
+
+/*-------------------------PAGINA MODALIDADES DE RRABAJO------------------------*/
+
+.parrInicial {
+  margin: 100px;
+  margin-top: 100px;
+  margin-left: 80px;
+  margin-right: 100px;
+}
+
+.mtCachorro {
+  display: flex;
+  margin: 100px;
+}
+
+.mtCachorro h2 {
+  margin-left: 350px;
+  font-size: 50px;
+  color: #22775e;
+  position: absolute;
+}
+
+.mtCachorro p {
+  margin-top: 120px;
+}
+
+.mtCachorro video {
+  margin-top: 100px;
+}
+
+.mtConducta {
+  display: flex;
+  margin: 100px;
+}
+
+.mtConducta h2 {
+  margin-left: -70px;
+  font-size: 50px;
+  color: #22775e;
+  position: absolute;
+}
+
+.mtConducta p {
+  margin-top: 130px;
+  margin-left: 400px;
+}
+
+.mtConducta video {
+  position: absolute;
+  margin-top: 130px;
+}
+
+.mtHogar {
+  display: flex;
+  margin: 100px;
+}
+
+.mtHogar h2 {
+  margin-left: 350px;
+  font-size: 50px;
+  color: #22775e;
+  position: absolute;
+}
+
+.mtHogar p {
+  margin-top: 120px;
+}
+
+.mtHogar video {
+  margin-top: 100px;
+}
+
+.bottomMT {
+  margin-top: 100px;
+}
+
+.bottomMT h3 {
+  color: #519480;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.bottomMT p {
+  margin-top: 20px;
+  margin-left: 90px;
+  margin-right: 90px;
+  text-align: center;
+}
+
+.tabla p {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.tabla table {
+  margin-top: 30px;
+  margin-left: 500px;
+}

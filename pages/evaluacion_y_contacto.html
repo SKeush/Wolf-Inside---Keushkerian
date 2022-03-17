@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600&display=swap');
+    </style>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>WOLF INSIDE</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="../index.html"><img src="../img/logo.jpg" alt="logo club canino"></a>
+            <h2>WOLF INSIDE</h2>
+            <h1>Centro de Entrenamiento y Adaptación Canina</h1>
+            <!--puse esto como H1 porque es lo que quiero que pese más para las búsquedas que el nombre del club-->
+        </div>
+        <div>
+            <nav>
+                <ul class="nav">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="./nosotros.html">NOSOTROS</a></li>
+                    <li><a href="./modalidades_de_trabajo.html">MODALIDADES DE TRABAJO</a></li>
+                    <li><a href="./evaluacion_y_contacto.html">EVALUACION Y CONTACTO</a></li>
+                    <li><a href="./comunidad_wolf.html">COMUNIDAD WOLF</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div>
+                <p>PONETE EN CONTACTO CON NOSOTROS</p>
+            </div>
+            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quo aspernatur ad dolore veniam. Omnis dolorem temporibus eaque earum ipsum repudiandae. Numquam sed veritatis, quo amet ipsa ut eveniet doloremque!</div><br>
+        </section>
+        <section>
+            <div>
+            <fieldset>
+                <legend>Completa el siguiente formulario y nos pondremos en contacto contigo dentro de las siguientes 48hs</legend><br>
+                <form action="">
+                    <div>
+                        <input type="text" placeholder="Tu Nombre"><br><br> <!--los br los voy a sacar cuando implemente CSS y box modeling pero por ahora quedan así para una mejor visual-->
+                        <input type="text" placeholder="El Nombre de tu Perro"><br><br>
+                        <input type="text" placeholder="Edad de tu Perro"><br><br>
+                        <input type="radio" name="sexo" value="macho"><label for="sexo">Macho</label>
+                        <input type="radio" name="sexo" value="hembra"><label for="sexo">Hembra</label><br><br>
+                        <label for="raza">Perro Tipo:</label><br>
+                        <select name="raza" id="">
+                            <option value=""></option>
+                            <option value="raza">Raza</option>
+                            <option value="cruza">Cruza</option>
+                            <option value="no sabe">No tengo ni idea</option>
+                        </select><br><br>
+                        <input type="tel" placeholder="Celular para contactarte"><br><br>
+                        <input type="email" placeholder="Email"><br><br>
+                        <label for="modTrabajo">Modalidad de Trabajo</label><br>
+                        <select name="mt" id="">
+                            <option value=""></option>
+                            <option value="cachorro">Aprende con tu cachorro</option>
+                            <option value="EyMD">Entrenamiento y Modificación de conducta</option>
+                            <option value="aHogar">Adaptación al Hogar</option>
+                        </select>
+                    </div>
+                    <div>
+                        <p>Contanos un poco sobre tu perro, de dónde viene, hace cuánto que está contigo, qué problemas
+                            te
+                            está
+                            dando, en qué tienen ganas de trabajar juntos, y todo dato que creas nos puede ayudar a
+                            conocer
+                            un
+                            poquito más a tu amigo de cuatro de patas 1.500 caracteres</p>
+                        <textarea name="textoLibre" cols="80" rows="10" maxlength="1500" style="resize: none;"></textarea>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <p>WOLF INSIDE &reg; Centro de Entrenamiento y Adaptación Canina</p>
+        <hr>
+    </footer>
+</body>
+
+</html>
